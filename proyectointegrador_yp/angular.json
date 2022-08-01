@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proyectointegrador-yp": {
+    "proyectointegrador_yp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/proyectointegrador-yp",
+            "outputPath": "dist/proyectointegrador_yp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "proyectointegrador-yp:build:production"
+              "browserTarget": "proyectointegrador_yp:build:production"
             },
             "development": {
-              "browserTarget": "proyectointegrador-yp:build:development"
+              "browserTarget": "proyectointegrador_yp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "proyectointegrador-yp:build"
+            "browserTarget": "proyectointegrador_yp:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "fd32cfbd-00ee-4674-b137-be392db060e0"
   }
 }
